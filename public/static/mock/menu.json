@@ -1,0 +1,54 @@
+{
+  "list": [
+    {
+      "title": "首页",
+      "path": "/dashboard",
+      "disabled": false,
+      "children": null
+    },
+    {
+      "title": "前端",
+      "path": "/web",
+      "disabled": false,
+      "children": [
+        {
+          "title": "javascript",
+          "path": "/javascript",
+          "disabled": false,
+          "children": [
+            {
+              "title": "es5",
+              "path": "/es5",
+              "disabled": false,
+              "children": null
+            },
+            {
+              "title": "es6",
+              "path": "/es6",
+              "disabled": false,
+              "children": null
+            }
+          ]
+        },
+        {
+          "title": "css",
+          "path": "/css",
+          "disabled": false,
+          "children": null
+        },
+        {
+          "title": "html",
+          "path": "/html",
+          "disabled": false,
+          "children": null
+        }
+      ]
+    },
+    {
+      "title": "权限管理",
+      "path": "/permission",
+      "disabled": false,
+      "children": null
+    }
+  ]
+}
