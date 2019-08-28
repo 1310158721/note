@@ -45,10 +45,68 @@
       ]
     },
     {
+      "title": "常用插件",
+      "path": "/plugins",
+      "disabled": false,
+      "children": [
+        {
+          "path": "/vue-draggable",
+          "title": "拖拽组件",
+          "disabled": false,
+          "children": null
+        }
+      ]
+    },
+    {
+      "title": "图表",
+      "path": "/charts",
+      "disabled": false,
+      "children": [
+        {
+          "path": "/e-charts",
+          "title": "Echarts",
+          "disabled": false,
+          "children": null
+        }
+      ]
+    },
+    {
+      "title": "地图",
+      "path": "/map",
+      "disabled": false,
+      "children": [
+        {
+          "path": "/baidu-map",
+          "title": "百度地图",
+          "disabled": false,
+          "children": null
+        }
+      ]
+    },
+    {
       "title": "权限管理",
       "path": "/permission",
       "disabled": false,
       "children": null
+    },
+    {
+      "title": "备忘录",
+      "path": "/memorandum",
+      "disabled": false,
+      "children": null
+    },
+    {
+      "title": "方便测试",
+      "path": "/test",
+      "disabled": false,
+      "children": [
+        {
+          "path": "/typescript",
+          "title": "typescript",
+          "disabled": false,
+          "children": null
+        }
+      ]
     }
   ]
 }

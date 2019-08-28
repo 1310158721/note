@@ -62,7 +62,7 @@ export default class Login extends Vue {
       if (valid) {
         window.localStorage.setItem('isLogin', 'true');
         this.setMenuList(null); // 清除vuex里面的菜单栏数据
-        this.$router.push({ path: '/dashboard', replace: true });
+        this.$router.replace({ path: '/layout-base', replace: true });
       } else {
         console.log('error submit!!');
         return false;

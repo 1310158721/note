@@ -20,6 +20,8 @@ const store = new Vuex.Store({
       return new Promise((resolve) => {
         getMenuList(params).then((res: any) => {
           resolve(res.data.list);
+        }).catch((err) => {
+          console.log(err);
         });
       });
     }

@@ -1,6 +1,6 @@
 <template>
   <div class="permission">
-    permission
+    permission----
   </div>
 </template>
 

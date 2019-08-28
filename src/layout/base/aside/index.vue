@@ -41,11 +41,13 @@
 <script lang='ts'>
 import { Vue, Component } from 'vue-property-decorator';
 import { State } from 'vuex-class';
+import { getMenuList } from '@/http/common';
 
 @Component
 
 export default class LayoutBaseAside extends Vue {
-  @State('menuList') public list: any;
+  public list: any = [];
+
   get defaultActive() {
     return this.$route.path;
   }
@@ -61,6 +63,12 @@ export default class LayoutBaseAside extends Vue {
 
   public switchCollapseStatus() {
     this.isCollapse = !this.isCollapse;
+  }
+
+  public created() {
+    getMenuList().then((data: any) => {
+      this.list = data.data.list;
+    });
   }
 }
 </script>
